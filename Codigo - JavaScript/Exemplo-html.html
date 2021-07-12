@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crud operation in javascript</title>
+    <link type="text/css" rel="stylesheet" href="Exemplo-css.css">
+</head>
+
+<body style="background-color: hsl(220, 53%, 84%);">
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="submeterFormulario()">
+                    <div>
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome" >
+                    </div>
+                    <div>
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" name="sobrenome" id="sobrenome" >
+                    </div>
+                    <div>
+                        <label for="genero">Gênero</label>
+                        <input type="text" name="genero" id="genero">
+                    </div>
+                    <div>
+                        <label for="endereco">Endereço</label>
+                        <input type="text" name="endereco" id="endereco">
+                    </div>
+                    <div>
+                        <label for="cep">CEP</label>
+                        <input type="number" name="cep" id="cep">
+                    </div>
+                    <div>
+                        <label for="cidade">Cidade</label>
+                        <input type="text" name="cidade" id="cidade">
+                    </div>
+                    <div class="form_action--button">
+                        <input type="submit" value="Submeter">
+                        <input type="reset" value="Resetar">
+                    </div>
+                </form>
+            </td>
+            <td>
+                <table class="list" id="baseDados">
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Sobrenome</th>
+                            <th>Gênero</th>
+                            <th>Endereço</th>
+                            <th>CEP</th>
+                            <th>Cidade</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="./Exemplo-script.js"></script>
+</body>
+
+</html>
